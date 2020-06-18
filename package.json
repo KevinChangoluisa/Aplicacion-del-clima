@@ -1,17 +1,31 @@
 {
   "name": "05-clima",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aplicacion para busqueda de clima actual segun el nombre de la ubicacion",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Kevin Changoluisa",
   "license": "ISC",
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^3.1.2",
     "axios": "^0.19.2",
     "node-geocoder": "^3.27.0",
     "yargs": "^15.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinChangoluisa/Aplicacion-del-clima.git"
+  },
+  "keywords": [
+    "clima",
+    "web",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/KevinChangoluisa/Aplicacion-del-clima/issues"
+  },
+  "homepage": "https://github.com/KevinChangoluisa/Aplicacion-del-clima#readme"
 }
