@@ -11,7 +11,7 @@ const axios = require("axios");
 
  */
 const getClimaHumedadPrecion = async(lat, lon) => {
-    key = '6ebcf007e26bd1bd8a7f099e9379b494'
+    key = 'accesToken'
     const resp = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${key}&units=metric`
     );
